@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/19495361-mulher-menina-avatar-usuario-pessoa-cabelo-cacheado-pele-negra-semi-solido-transparente-vetor.png" alt="Avatar da Yasmin" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Yasmin Rayrelle</p>
+        <h1>Eu sou uma Jovem Aprendiz</h1>
+        <p>Sou uma jovem que gosta de ler e aprender.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge text-bg-secondary">Aprendo Rápido</p>
+            <p class="badge text-bg-secondary">Sei cozinhar</p>
+            <p class="badge text-bg-secondary">Jogo Vôlei</p>
+        </div>
+
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/poder-repeticao-aprendizado.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Aprendo as coisas rapidamente</h5>
+                        <p class="card-text">Sou uma jovem que aprende as coisas com facilidade.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o Projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/images.png" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sou uma jovem cozinheira</h5>
+                        <p class="card-text">Sempre tive o interesse na culinária.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o Projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/volei.png" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha partida de vôlei</h5>
+                        <p class="card-text">Essa foi minha partida de vôlei amistosa.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o Projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tenho uma certa facilidade em aprender</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esta imagem é demostrativa.</p>
+                    <img src="img/poder-repeticao-aprendizado.png" class="img-fluid w-100"
+                        alt="imagem representativa do Projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver Projeto ao Vivo</a>
+                    <a href="">Baixe os arquivos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sempre tive a vontade de cozinhar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esta imagem é demostrativa.</p>
+                    <img src="img/images.png" class="img-fluid w-100"
+                        alt="imagem representativa do Projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver Projeto ao Vivo</a>
+                    <a href="">Baixe os arquivos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sou jogadora de Vôlei</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esta imagem é demostrativa.</p>
+                    <img src="img/volei.png" class="img-fluid w-100"
+                        alt="imagem representativa do Projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver Projeto ao Vivo</a>
+                    <a href="">Baixe os arquivos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Yasmin947">Github</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Yasmin Rayrelle</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
